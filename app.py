@@ -135,7 +135,7 @@ class Teacher(Person):
     def display(self) -> str:
         print(f"Name: {self.name}, Subject: {self.subject}")
 
-teacher1 = Teacher("Owais", "Mathematics")
+teacher1 = Teacher("Duaa", "Computer")
 teacher1.display()
 
 #9. Abstract Classes and Methods
