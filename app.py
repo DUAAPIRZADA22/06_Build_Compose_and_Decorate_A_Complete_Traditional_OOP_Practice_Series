@@ -11,7 +11,7 @@ class Student:
         print(f"Name: {self.name}, Marks: {self.marks}")
         
     
-student1 = Student("John Doe", 85)
+student1 = Student("Duaa Pirzada", 85)
 
 student1.display()
 
@@ -106,7 +106,7 @@ class Employee:
         print(f"SSN: {self.__ssn}") # Access private variable within the class
 
 
-emp = Employee("Owais Abdullah", 50000, "123-45-6789")
+emp = Employee("Duaa Pirzada", 50000, "123-45-6789")
 
 print(f"Name: {emp.name}")  # Public variable we can access directly
 print(f"Salary: {emp._salary}")  # Protected variable, Accessible, but python discourages direct access
@@ -286,7 +286,7 @@ def log_function_call(func):
 def say_hello(name: str) -> str:
     print(f"Hello, {name}!")
 
-say_hello("Owais")
+say_hello("Duaa")
 
 # 17. Class Decorators
 def add_greeting(cls):
